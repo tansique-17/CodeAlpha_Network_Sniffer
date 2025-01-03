@@ -85,7 +85,7 @@ Packet: Version=4, Header Length=20, TTL=128, Protocol=17, Source=10.0.0.5, Dest
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/tansique-17/CodeAlpha_network_sniffer/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/tansique-17/CodeAlpha_network_sniffer/blob/main/LICENSE) file for details.
 
 ## Disclaimer
 
