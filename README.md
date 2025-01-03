@@ -1,8 +1,6 @@
 # CodeAlpha_Network_Sniffer
 
-
-```markdown
-# Network Packet Sniffer
+## Network Packet Sniffer
 
 This is a simple network packet sniffer built using Python's `socket` and `struct` modules. It captures and analyzes raw network packets, displaying key information about each packet, including the version, header length, TTL (Time to Live), protocol, and source/destination IP addresses.
 
