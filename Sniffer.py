@@ -4,9 +4,10 @@ import os
 import pyfiglet
 
 def main():
+    myip = input("Enter your local IP address: ")
     try:
         sniffer = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_IP)
-        sniffer.bind(("YOUR_IP_HERE", 0))  # Replace with your local IP
+        sniffer.bind((myip, 0)) 
         sniffer.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
 
         # Enable promiscuous mode on Windows
